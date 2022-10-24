@@ -15,7 +15,7 @@ function TourPage() {
   const removeTour = (removedID) => {
     let newTours = tours.filter(({ id }) => {
       console.log(id, removedID);
-      return id != removedID;
+      return id !== removedID;
     });
     setTours(newTours);
   };

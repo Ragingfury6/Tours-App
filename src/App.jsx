@@ -1,5 +1,5 @@
-import TourCard from './components/TourCard';
-import SkeletonCard from './components/SkeletonCard';
+// import TourCard from './components/TourCard';
+// import SkeletonCard from './components/SkeletonCard';
 import './styles/styles.css';
 import TourPage from './pages/TourPage';
 

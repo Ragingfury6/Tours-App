@@ -1,4 +1,4 @@
-import {useState} from 'react';
+import { useState } from "react";
 
 function TourCard({ id, image, name, price, info, remove }) {
   let [trimInfo, setTrimInfo] = useState(true);
